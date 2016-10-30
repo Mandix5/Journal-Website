@@ -1,0 +1,37 @@
+p {
+	color:black;
+	font-family:Comic Sans MS;
+}
+ul.horizontal {
+	list-style-type:none;
+	background-color:lightblue;
+	text-align:center;
+}
+ul.horizontal > li{
+	display:inline-block;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+ul.horizontal > li > a {
+	font-size:30px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:15px;
+	padding-bottom:15px;
+	text-align:center;
+	font-family:Comic Sans MS;
+}
+ul.horizontal > li > a:hover{
+	background-color:gray
+}
+#Left-column {
+	float: left;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+#Right-Column { 
+	float: left;
+	margin-left: 10%;
+	margin-right: 10%;
+	
+}
