@@ -1,43 +1,5 @@
 <html><head>
-<style> 
-p {
-	color:black;
-	font-family:Comic Sans MS;
-}
-ul.horizontal {
-	list-style-type:none;
-	background-color:lightblue;
-	text-align:center;
-}
-ul.horizontal > li{
-	display:inline-block;
-	padding-top:15px;
-	padding-bottom:15px;
-}
-ul.horizontal > li > a {
-	font-size:30px;
-	padding-left:20px;
-	padding-right:20px;
-	padding-top:15px;
-	padding-bottom:15px;
-	text-align:center;
-	font-family:Comic Sans MS;
-}
-ul.horizontal > li > a:hover{
-	background-color:gray
-}
-#Left-column {
-	float: left;
-	margin-left: 10%;
-	margin-right: 10%;
-}
-#Right-Column { 
-	float: left;
-	margin-left: 10%;
-	margin-right: 10%;
-	
-}
-</style>
+<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
 <ul class="horizontal">
@@ -49,16 +11,17 @@ ul.horizontal > li > a:hover{
 <li><a>Account</a></li>
 </ul>
 <div style="width:100%">
-	<div id="Left-column">
+	<div id="column">
 		<img src="images/bacon.png">
 		<br>
-		<p style= "font-size:60px; color:green">
+		<p style= "font-size:60px; color:#D2B4DE">
 		Humor Heals the Soul
 		</p>
 	</div>
-	<div id="Right-column">
-		<p style= "font-size:30px; text-decoration:underline"> Posts </p>
-		<p style= "font-size:20px">Comments:</p>
+	<div id="column">
+		<p style= "font-size:30px; text-decoration:underline; color:#AED6F1"> Posts </p>
+		<p style= "font-size:20px; color:#AED6F1">Comments:</p>
+		
 	</div>
 </div>
 </body>
