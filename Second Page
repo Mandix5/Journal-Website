@@ -1,52 +1,12 @@
 <html><head>
+<link rel="stylesheet" type="text/css" href="styles.css">
 <style>
 body {
 	background-color: #FBCEB1;
 }
-p {
-	color:black;
-	font-family:Comic Sans MS;
-}
-ul.horizontal {
-	list-style-type:none;	
-	text-align:center;
-	background-color: #FFFFFF;
-	margin-top: 0px;
-}
-ul.horizontal li {
-	display:inline-block;
-}
-ul.horizontal li a {
-	font-size:30px;
-/*	padding-left:20px;
-	padding-right:20px;
-*/
-	padding-top:15px;
-	padding-bottom:15px;
-	display: block;
-	text-align:center;
-	font-family:Comic Sans MS;
-}
-ul.horizontal li a:hover{
-	background-color:gray
-}
-#textarea {
-	width:60%;
-	margin-left:auto;
-	margin-right:auto;
-	background-color:#FBCEB1;
-	font-size:20px;
-	font-family:Verdana;
-
-	
-}
-#textarea p {
-	font-size:30px;
-	font-family:Verdana;
-	
-}
 
 </style>
+
 </head>
 <body>
 <ul class="horizontal">
