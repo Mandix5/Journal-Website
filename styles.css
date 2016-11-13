@@ -54,18 +54,14 @@ ul.horizontal li a:hover {
 #column {
 	float: left;
 	width:30%;
-	margin-left:5%;
+	margin-left:10%;
 	margin-right:5%;
 	border-radius: 10px;
 }
 #column p {
-	float: right;
-	width:70%;
-	margin-left:5%;
-	margin-right:5%;
-	border-radius: 10px;
-	
-	
+	text-align:left;
+	font-size:25px;
+	color:black;
 }
 #column ul {
 	text-align:left;
