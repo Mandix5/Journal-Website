@@ -67,6 +67,16 @@ ul.horizontal li a:hover {
 	
 	
 }
+#column ul {
+	text-align:left;
+	font-size:25px;
+	color:black;
+}
+#column ul li {
+	text-align:left;
+	font-size:25px;
+	color:black;
+}
 #contex-box {
 	width: 50%;
 	margin: auto;
@@ -85,6 +95,4 @@ ul.horizontal li a:hover {
 	font-family:Verdana;
 	color:black;
 	text-align:center;
-	
-	
 }
