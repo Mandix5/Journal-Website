@@ -1,6 +1,7 @@
 p {
-	color:black;
+	color:white;
 	font-family:Comic Sans MS;
+	font-size:40px;
 }
 ul.horizontal {
 	list-style-type: none;
@@ -34,29 +35,53 @@ ul.horizontal li a:hover {
 	margin-left: auto;
 	/*margin-right: auto;*/
 }
+#content-box {
+	width: 80%;
+	margin: auto;
+	background-color: white;
+	opacity: 0.8;
+	padding-top:5%;
+	padding-bottom:5%;
+	margin-top: 1000px;
+	margin-bottom:1000px;
+	
+}
+#content-box p {
+	font-size:30px; 
+	color:black; 
+	text-align:center;
+}
+	 
 #column {
 	float: left;
 	width:30%;
 	margin-left:5%;
 	margin-right:5%;
-	background-color:#FBCEB1;
 	border-radius: 10px;
 }
 #column p {
+	float: right;
+	width:70%;
+	margin-left:5%;
+	margin-right:5%;
+	border-radius: 10px;
+	
 	
 }
 #textarea {
 	width:60%;
 	margin-left:auto;
 	margin-right:auto;
-	background-color:#FBCEB1;
 	font-size:20px;
 	font-family:Verdana;
 
 	
 }
 #textarea p {
-	font-size:30px;
+	font-size:25px;
 	font-family:Verdana;
+	color:#FFFFFF;
+	text-align:center;
+	
 	
 }
