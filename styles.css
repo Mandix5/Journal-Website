@@ -26,6 +26,7 @@ ul.horizontal li a {
 	padding-right: 15px;
 	display: block;
 	font-family:Comic Sans MS;
+	text-decoration: none;
 }
 ul.horizontal li a:hover {
 	background-color: gray
