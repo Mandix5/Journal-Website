@@ -65,11 +65,13 @@ ul.horizontal li a:hover {
 	color:black;
 }
 #column ul {
+	font-family: comic sans ms;
 	text-align:left;
 	font-size:25px;
 	color:black;
 }
 #column ul li {
+	font-family: comic sans ms;
 	text-align:left;
 	font-size:25px;
 	color:black;
