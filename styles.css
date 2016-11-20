@@ -59,18 +59,18 @@ ul.horizontal li a:hover {
 	margin-right:5%;
 	border-radius: 10px;
 }
-#column p {
+#content-box #column p {
 	text-align:left;
-	font-size:100px;
+	font-size:25px;
 	color:black;
 }
-#column ul {
+#content-box #column ul {
 	font-family:Comic Sans MS;
 	text-align:left;
 	font-size:25px;
 	color:black;
 }
-#column ul li {
+#content-box #column ul li {
 	font-family:Comic Sans MS;
 	text-align:left;
 	font-size:25px;
